@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 /* setting the font */
 *{
@@ -74,6 +75,8 @@
 
 .blog-details p{
   text-align: left;
+  word-spacing: 3px;
+  line-height: 30px;
 }
 
 .blog-details hr{
