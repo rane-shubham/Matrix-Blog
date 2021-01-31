@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* setting the font */
+*{
+  font-family: "Raleway";
+  color:#1d1d1d;
+}
+
+.App{
+  max-width:1000px;
+  margin:0 auto;
+}
+
+.navbar{
+  padding: 5px;
+  display: flex;
+  border-bottom: 1px solid #8b8b8b;
+  align-items: center;
+}
+
+.navbar h1{
+  color: #ff6347;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 25px;
+  text-emphasis: strong;
+  text-decoration: none;   
+}
+
+.navbar a:hover{
+  color: #ff6347;
+}
+
+.content {
+  margin: 40px auto;
+  padding: 20px 5px;
+}
+
+/* adding blog preview */
+.blog-preview {
+  padding:5px 25px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.blog-preview h2 {
+  color: #ff6347;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px #00000099;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* displaying blog */
+.blog-details{
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-details h2{
+  color:#ff6347;
+  font-family: Merriweather, serif;
+  font-size: 40px;
+}
+
+.blog-details p{
+  text-align: left;
+}
+
+.blog-details hr{
+  clear:both;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+}
+
+.blog-details button{
+  background-color: #ff6347;
+  margin: 20px 0;
+  color:#ffffff;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Create new blog */
+.create{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create h1{
+  color:#ff6347;
+  text-align: center;
+}
+
+.create label{
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.create input[type="text"]{
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.create button{
+  color: #ffffff;
+  background-color: #ff6347;
+  padding: 10px 20px;
+  border: 0px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create textarea{
+  padding: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+  min-height: 220px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* If home page is empty */
+.empty{
+  width:300px;
+  text-align: center;
+  margin: 15% auto;
+}
+
+.empty p{
+  font-size: 30px;
+}
