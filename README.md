@@ -8,7 +8,6 @@ Techstack used:</br>
 </br></br>
 
 ## Setup
-<hr>
 
 The first thing to do is to clone the repository:(Commands are for Windows OS)
 ```
@@ -35,6 +34,5 @@ python3 manage.py runserver
 Your rest_api has been setup.
 
 ## To start the website server
-<hr>
 
 <a href="https://github.com/rane-shubham/Matrix-Blog/tree/main/matrix-blog">Read Me</a>
