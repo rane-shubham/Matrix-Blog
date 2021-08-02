@@ -6,7 +6,7 @@ const Home = () => {
     //     const newBlog = blogs.filter((blog) => blog.id !== id);
     //     setBlogs(newBlog);
     // }
-    const { blogs, isPending, error } = useFetch("http://localhost:8000/blogs");
+    const { blogs, isPending, error } = useFetch("http://localhost:8000/blogs/api/");
 
     return (
         <div className="home">
